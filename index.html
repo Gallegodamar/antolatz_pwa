@@ -5,7 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Antolatzaile Esploratzailea</title>
+  <!-- TailwindCSS desde CDN (ok para desarrollo) -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- META: para experiencia tipo app -->
+  <meta name="theme-color" content="#0077cc" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Hitzkale" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+  <!-- Enlace al manifest -->
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="/index.css" />
+
+  <!-- Script principal de tu app -->
   <script type="module" src="/index.tsx"></script>
 
   <style>
